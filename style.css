@@ -106,23 +106,23 @@ form {
 	font-size: 16pt;
 	text-align: right;
 }
-input.un, input.deux {
+input[placeholder="Name"], input[type="email"] {
 	float: left;
 	width: 49%;
 }
-input.un {
+input[placeholder="Name"] {
 	margin-right: 2%;
 }
-form > input, .msg {
+form > input, textarea {
 	font-size: 16pt;
 	margin: 0.4em 0;
 	width: 100%;
 }
-input::placeholder, .msg::placeholder {
+input::placeholder, textarea::placeholder {
 	font-weight: 200;
 	font-family: Open Sans;
 }
-.msg {
+textarea {
 	min-height: 5em;
 	max-width: 100%;
 	min-width: 100%;
