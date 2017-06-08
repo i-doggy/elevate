@@ -5,43 +5,47 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 	</head>
 	<body>
-		<menu>
-			<a href="#phome">Home</a>
-			<a href="#pabout">About</a>
-			<a href="#pideas">Ideas</a>
-			<a href="#pcontact">Contact</a>
-		</menu>
+		<header>
+			<nav>
+				<a href="#phome">Home</a>
+				<a href="#pabout">About</a>
+				<a href="#pideas">Ideas</a>
+				<a href="#pcontact">Contact</a>
+			</nav>
+		</header>
 		<main>
-			<div class="infoBlock" id="home">
-				<pointer id="phome"></pointer>
+			<article id="home">
+				<div class="pointer" id="phome"></div>
 				<div class="name">
 					<h1>ELEVATE</h1>
 					by templatemo
 				</div>
-			</div>
-			<div class="infoBlock">
+			</article>
+			<article>
 				<div class="container">
 					<div class="about">
 						<h1> Our Team </h1>
 						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel nisi pharetra nibh varius pharetra ac sagittis nisi. Etiam pharetra vestibulum hendrerit. Donec ex libero, fringilla vitae purus sit amet, rhoncus pharetra lorem. Pellentesque id sem id lacus ultricies vehicula. Aliquam rutrum mi non. </p>
 					</div>
-					<img class="specImg" src="images\1.jpg">
+					<img src="images\1.jpg">
 				</div>
-			</div>
-			<div class="infoBlock chess" id="about">
-				<pointer id="pabout"></pointer>
-				<div><p>Creative</p></div>
-				<div><img src="images\2.jpg"></img></div>
-				<div><p>Develop</p></div>
-				<div><img src="images\3.jpg"></img></div>
-				<div><p>Design</p></div>
-				<div><img src="images\4.jpg"></img></div>
-				<div><p>Support</p></div>
-				<div><img src="images\5.jpg"></img></div>
-				<div><p>Think</p></div>
-			</div>
-			<div class="infoBlock" id="ideas">
-				<pointer id="pideas"></pointer>
+			</article>
+			<article id="about">
+				<div class="pointer" id="pabout"></div>
+				<ul class="chess">
+					<li><p>Creative</p></li>
+					<li><img src="images\2.jpg"></img></li>
+					<li><p>Develop</p></li>
+					<li><img src="images\3.jpg"></img></li>
+					<li><p>Design</p></li>
+					<li><img src="images\4.jpg"></img></li>
+					<li><p>Support</p></li>
+					<li><img src="images\5.jpg"></img></li>
+					<li><p>Think</p></li>
+				</ul>
+			</article>
+			<article id="ideas">
+				<div class="pointer" id="pideas"></div>
 				<div class="swiper-container">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
@@ -66,24 +70,24 @@
 					<div class="swiper-pagination">
 					</div>
 				</div>
-			</div>
-			<div class="infoBlock" id="contact">
-				<pointer id="pcontact"></pointer>
+			</article>
+			<article id="contact">
+				<div class="pointer" id="pcontact"></div>
 				<img class="forgood" src="images\6.jpg"></img>
 				<div class="form">
 					<h1>Contact Us</h1>
 					<form>
 						<input class="un" placeholder="Name"></input>
-						<input class="deux" placeholder="Email"></input>
+						<input type=email class="deux" placeholder="Email"></input>
 						<input placeholder="Subject"></input>
 						<textarea class="msg" placeholder="Message"></textarea>
-						<button>Submit</button>
+						<input type=submit></input>
 					</form>
 				</div>
-			</div>
-			<copyrights>
+			</article>
+			<footer>
 				Copyright © 2016 Company Name - Design: Elevate
-			</copyrights>	
+			</footer>	
 		</main>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
 		<script>
